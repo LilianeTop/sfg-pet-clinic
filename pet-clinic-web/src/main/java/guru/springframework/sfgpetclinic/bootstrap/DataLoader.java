@@ -18,10 +18,6 @@ public class DataLoader implements CommandLineRunner {
         this.vetService = vetService;
     }
 
-//    private final OwnerMapService ownerService;
-//    private final VetMapService vetService;
-
-
 
     @Override
     public void run(String... args) throws Exception {
