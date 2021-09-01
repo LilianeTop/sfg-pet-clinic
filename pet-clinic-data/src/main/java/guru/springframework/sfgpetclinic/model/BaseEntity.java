@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 @Data
 public class BaseEntity implements Serializable {
-    private Long id;//boxed type preffered by Hibernate
+    private Long id;//boxed type preferred by Hibernate
 
 
 }
