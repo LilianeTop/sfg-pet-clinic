@@ -21,7 +21,7 @@ public class VetMapService extends AbstractMapService<Vet, Long> implements VetS
 
     @Override
     public Vet save(Vet vet) {
-        return super.save(vet.getId(), vet);
+        return super.save(vet);
     }
 
     @Override
@@ -29,6 +29,7 @@ public class VetMapService extends AbstractMapService<Vet, Long> implements VetS
         super.delete(vet);
 
     }
+
     @Override
     public void deleteById(Long id) {
         super.deleteById(id);
