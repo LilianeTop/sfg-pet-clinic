@@ -21,4 +21,27 @@ public class VetController {
 
         return "vets/index";
     }
+//@Controller
+//public class VetController {
+//
+//    private final VetService vetService;
+//
+//    public VetController(VetService vetService) {
+//        this.vetService = vetService;
+//    }
+//
+//    @RequestMapping({"/vets", "/vets/index", "/vets/index.html", "/vets.html"})
+//    public String listVets(Model model){
+//
+//        model.addAttribute("vets", vetService.findAll());
+//
+//        return "vets/index";
+//    }
+//
+//    @GetMapping("/api/vets")
+//    public @ResponseBody Set<Vet> getVetsJson(){
+//
+//        return vetService.findAll();
+//    }
+//}
 }
