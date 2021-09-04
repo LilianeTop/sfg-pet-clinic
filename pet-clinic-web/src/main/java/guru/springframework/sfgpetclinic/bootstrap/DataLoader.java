@@ -48,7 +48,6 @@ public class DataLoader implements CommandLineRunner {
         vetService.save(vet2);
         System.out.println("Loaded vets ....");
 
-        System.out.println("Checking if I can push to github");
 
     }
 }
